@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>	
+<script>
+function c(){
+	console.log(a)
+}
+ a=function b(){
+	return 10
+}
+
+c(a)
+</script>
+
+
+
+<style>
+.big{
+	width: 100%
+}
+
+.hezi1{
+	background-color: red;
+	width: 50%;
+	height: 300px;
+	float: left;
+
+}
+
+.hezi2{
+	background-color: yellow;
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+@media only screen and (min-width:0px) and (max-width: 1000px){
+	.big div{
+		width: 100%;
+
+	}
+}
+</style>
+<body>
+<div class="big">
+	<div class="hezi1"></div>
+	<div class="hezi2"></div>
+</div>
+
+</body>
+</html>
